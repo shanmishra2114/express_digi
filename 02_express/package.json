@@ -1,0 +1,24 @@
+{
+  "name": "trip-manager",
+  "version": "1.0.0",
+  "description": "simply a trip planner",
+  "main": "index.js",
+  "type": "module",
+  
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "express",
+    "trip"
+  ],
+  "author": "shantanu mishra",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
